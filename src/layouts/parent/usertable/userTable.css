@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.wrapper2 {
+    width: 950px;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-left: 4px;
+    background:white;
+    border-radius: 5px;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+}
+
+.userTable{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -240px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    opacity: 1;
+    background: linear-gradient(195deg, #49a3f1, #1A73E8);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0rem 0.25rem 1.25rem 0rem rgb(0 0 0 / 14%), 0rem 0.4375rem 0.625rem -0.3125rem rgb(0 187 212 / 40%);
+} 
+table{  
+    height: auto;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}  
+
+th,td{  
+padding: 18px;
+text-align: left;
+border-radius: 75px;
+font-size:14px ;
+border-bottom: 1px solid rgba(0,0,0,0.1);;
+}
+
+
+.data {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.dots {
+  margin-left: 40%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+.pagination {
+    margin-top: 20px;
+    margin-left: 350px;
+    text-align : center;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #1A73E8 ;
+    border-color: #1A73E8 ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #1A73E8 ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #1A73E8 ;
+    border-color: #1A73E8;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #1A73E8
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+
+  .excel-table-wrapper {
+    overflow-x:auto;
+    overflow-y: auto;
+    height: 150px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .pagination {
+      margin-left: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .pagination {
+      margin-left: 250px;
+    }
+   
+    }
+
+    @media only screen and (max-width: 650px) {
+
+      .pagination {
+        margin-left: 70px;
+      }
+      }
